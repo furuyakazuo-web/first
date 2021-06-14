@@ -1,0 +1,305 @@
+body {
+  color: #000;
+  font-family: "Hiragino Mincho Pro", serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: #000;
+  display: flex;
+}
+
+.header-logo {
+  width: 193px;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.header-nav {
+  margin-left: auto;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 25px;
+  margin-top: 28px;
+  margin-bottom: 30px;
+}
+
+.nav-item:nth-child(2) {
+  margin-left: 25px;
+}
+
+.nav-item a {
+  color: #fff;
+  font-size: 22px;
+}
+
+.top {
+  background-image: url(../image/top-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 551px;
+}
+
+.top-title {
+  font-size: 60px;
+  padding-top: 240px;
+  padding-bottom: 240px;
+  text-align: center;
+}
+
+.course {
+  padding-top: 50px;
+}
+
+.inner {
+}
+
+.cmn-title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.course-cont {
+  padding-top: 40px;
+}
+
+.course-list {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.course-item {
+  width: 290px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.course-item:nth-child(n + 2) {
+  margin-left: 20px;
+}
+
+.course-item-image {
+}
+
+.course-item-text {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.course-item-text p {
+  font-size: 18px;
+}
+
+.course-item-box {
+  text-align: center;
+  position: relative;
+  margin-top: 48px;
+}
+
+.course-item-box:before {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 1px;
+  background-color: #707070;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -9px;
+}
+
+.course-item-box p {
+  font-size: 16px;
+}
+
+.course-item-box p:nth-child(2) {
+  margin-top: 8px;
+}
+
+.course-btn {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.course-btn a {
+  box-shadow: 0px 3px 6px #00000029;
+  width: 310px;
+  font-size: 18px;
+  border: 1px solid #eeeeee;
+  display: inline-block;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 5px;
+}
+
+.teacher {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.inner {
+}
+
+.teacher-cont {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.teacher-list {
+  padding-top: 45px;
+}
+
+.teacher-item {
+  display: flex;
+  align-items: center;
+}
+
+.teacher-item:nth-child(2) {
+  margin-top: 60px;
+}
+
+.teacher-item-image {
+  width: 250px;
+}
+
+.techer-item-text {
+  margin-left: 60px;
+  flex: 1;
+}
+
+.techer-item-text p {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.teacher-item-title {
+  font-size: 40px;
+}
+
+.contact {
+  background-image: url(../image/contact-bg.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.inner {
+}
+
+.contact-title {
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+}
+
+.cntact-text {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+.cntact-text p {
+  margin-top: 20px;
+  line-height: 2;
+}
+
+.contact-btn {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.contact-btn a {
+  background-color: #dc143c;
+  color: #fff;
+  font-size: 16px;
+  width: 210px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+
+.inner {
+}
+
+@media only screen and (max-width: 767px) {
+  .header-nav {
+    display: none;
+  }
+
+  .top-title {
+    font-size: 26px;
+  }
+
+  .course-list {
+    display: block;
+  }
+
+  .course-item {
+    width: 100%;
+  }
+
+  .course-item:nth-child(n + 2) {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .teacher-cont {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .teacher-item {
+    display: block;
+  }
+
+  .teacher-item-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+  }
+
+  .techer-item-text {
+    margin-left: 26px;
+    margin-right: 26px;
+  }
+
+  .teacher-item-title {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .course-item-text {
+    padding-bottom: 30px;
+  }
+}
